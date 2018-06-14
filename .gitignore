@@ -1,5 +1,12 @@
+myvenv
+.idea
+
 .terraform
+*.tfstate
+*.tfstate.backup
 *.jpg
 *.txt
 
-.idea
+.env
+db.sqlite3
+

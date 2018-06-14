@@ -1,5 +1,5 @@
-output "aws_instance_ip" {
-  value = "${aws_instance.natka.public_ip}"
+output "docker_container_ip" {
+  value = "${docker_container.hello-world.ip_address}"
 }
 
 output "bullshit" {
