@@ -4,9 +4,10 @@ myvenv
 .terraform
 *.tfstate
 *.tfstate.backup
+
 *.jpg
 *.txt
 
 .env
 db.sqlite3
-
+*.pyc
